@@ -7,7 +7,7 @@ import Animation from '@/components/animation/animation'
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'IEEE GECI SB'
+  title: 'IEEE CS GECI'
 }
 
 export default function RootLayout({ children, }: { children: React.ReactNode }) {

@@ -1,4 +1,4 @@
-import { BiBook, BiCalendar, BiNewspaper, BiMedal, BiCheckShield } from "react-icons/bi";
+import { BiBook, BiCalendar, BiNews, BiMedal, BiCheckShield } from "react-icons/bi";
 
 export default function Whymap() {
     return (
@@ -18,7 +18,7 @@ export default function Whymap() {
                 </div>
                 <div className="flex flex-col items-center gap-[20px] md:flex-row md:ml-36">
                     <div className="buttons text-3xl mx-9 inline-block font-medium block w-20 h-20 text-center leading-[4.7rem] rounded-full border-double border-[1.5px] border-transparent bg-[linear-gradient(white,white),radial-gradient(circle_at_top_left,#F42D98,#955DCB)] bg-origin-border bg-clip-both after:content-[''] relative after:absolute after:z-[-3] after:inset-[-.125em] after:bg-[linear-gradient(#F42D98,#955DCB)] after:blur after:opacity-50 after:rounded-full">
-                        <BiNewspaper className="inline-block" />
+                        <BiNews className="inline-block" />
                     </div>
                     <div className="w-80 inline-block text-center"><h2>Computer Magazine</h2><p className="mt-1 text-xs font-extralight text-[#666] mx-auto">The IEEE Computer Society’s award-winning, peer-reviewed flagship magazine (delivered monthly)</p></div>
                 </div>

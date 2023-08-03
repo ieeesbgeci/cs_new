@@ -96,12 +96,12 @@ export default function Navbar() {
     return (
         <>
             <div className="flex justify-between h-16 bg-[rgba(248,252,251,0.8)] z-[2] backdrop-blur-sm backdrop-saturate-150 fixed top-0 w-full ">
-                <Link href="/"><Image src={"/assets/cs_black.png"} alt="logo" width={70} height={70} className="ml-10 inline-block min-[960px]:ml-24 my-3" /></Link>
+                <Link href="/"><Image src={"/assets/cs_black.png"} alt="logo" width={100} height={100} className="ml-10 inline-block min-[960px]:ml-24 my-3" /></Link>
                 <HiOutlineMenuAlt4 strokeWidth="1" className="menu-icon text-4xl mx-10 flex min-w-[30px] h-16 cursor-pointer md:hidden" />
                 <HiOutlineX strokeWidth="1" className="remove-icon text-4xl mx-10 hidden min-w-[30px] h-16 md:hidden cursor-pointer" />
                 <div className="hidden my-16 bg-[rgba(248,252,251,1)] h-[calc(100vh-64px)] absolute w-full menu-small leading-[4rem] md:inline-block md:my-0 min-[960px]:mr-28 md:mr-16 md:w-auto md:static md:h-auto md:bg-transparent">
                     <ul className="nav-item-inner text-[0.8rem] font-light text-[color:var(--subheading)] font-medium md:flex md:gap-10">
-                        <li className="border-b md:border-0 cursor-pointer" onClick={why}>Why Ieee?</li>
+                        <li className="border-b md:border-0 cursor-pointer" onClick={why}>Why CS?</li>
                         <li className="border-b md:border-0 cursor-pointer" onClick={join}>Join Ieee</li>
                         <li className="border-b md:border-0 cursor-pointer" onClick={execom}>Execom</li>
                         <li className="border-b md:border-0 cursor-pointer" onClick={archives}>Archives</li>

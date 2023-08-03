@@ -123,23 +123,19 @@ export default function Execom() {
                         <MdKeyboardArrowLeft className="left-arrow cursor-pointer z-[1] text-3xl font-light absolute left-[0px] min-[876px]:left-[-50px]" />
                         <div className="h-[442px] execom-slider-cont flex overflow-hidden relative justify-start items-center gap-2 w-[240px] min-[876px]:w-[738px] mx-auto">
                             <div className=" flex execom-slider transition-transform duration-500">
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Chapter Advisor" name="Dr Vishak R" className="max-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" src="Vishak sir.jpg" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Chairperson" name="Vaishnav Vijayan" src="Vaishnavvijayan.jpg" className="min-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Vice Chairperson" name="Vishnu V" src="Vishnu V.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Secretary" name="Gokul H V" src="Gokul H V dop.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />                           
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Joint Secretary" name="Devika V R " src="Devika V R.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Technical Coordinator" name="Abhiram N S" className="min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" src="AbhiramS.jpg" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Women In Computing" name="Anakha Anilkumar" src="Anakha Anilkumar.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Chapter Advisor" name="Dr Vishak R" className="max-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" src="Vishak sir.jpg" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Chapter Advisor" name="Dr Vishak R" className="max-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" src="Vishak sir.jpg" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Chairperson" name="Vaishnav Vijayan" src="Vaishnavvijayan.jpg" className="min-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" />
-                                <Execomcard soceity="IEEE CS SBC GECI" position="Vice Chairperson" name="Vishnu V" src="Vishnu V.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
+                                <Execomcard soceity="IEEE SB GECI" position="Chapter Advisor" name="Dr Vishak R" className="max-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" src="Vishak sir.jpg" />
+                                <Execomcard soceity="IEEE SB GECI" position="Chairperson" name="Vaishnav Vijayan" src="Vaishnavvijayan.jpg" className="min-[876px]:card-hover min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" />
+                                <Execomcard soceity="IEEE SB GECI" position="Vice Chairperson" name="Vishnu V" src="Vishnu V.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
+                                <Execomcard soceity="IEEE SB GECI" position="Secretary" name="Gokul H V" src="Gokul HV dop.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
+                                <Execomcard soceity="IEEE SB GECI" position="Joint Secretary" name="Devika V R" src="Devika V R.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
+                                <Execomcard soceity="IEEE SB GECI" position="Technical Coordinator" name="Abhiram N S" className="min-[876px]:flex bg-[rgba(246,252,251,1)] drop-shadow-xl" src="AbhiramS.jpg" />
+                                <Execomcard soceity="IEEE SB GECI" position="Women In Computing" name="Anakha Anilkumar" src="Anakha Anilkumar.jpg" className="bg-[rgba(246,252,251,1)] drop-shadow-xl" />
                             </div>
                         </div>
                         <MdKeyboardArrowRight className="right-arrow cursor-pointer text-3xl font-light absolute right-[0px] min-[876px]:right-[-50px]" />
                     </div>
                 </div>
-                //<div className="mx-auto w-max"><Explore name="See More" icon={MdOutlineRocketLaunch} url="/execom" /></div>
+                <div className="mx-auto w-max"><Explore name="See More" icon={MdOutlineRocketLaunch} url="/execom" /></div>
             </div>
         </>
     )
